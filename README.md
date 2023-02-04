@@ -1,10 +1,17 @@
-# Data Engineering YouTube Analysis Project
+# Data Driven Insights on YouTube Trends - Data Engineering Project
 
 ## Overview
 
-This project aims to securely manage, streamline, and perform analysis on the structured and semi-structured YouTube videos data based on the video categories and the trending metrics.
+Our project aims to tackle the challenge of managing and analyzing large amounts of structured and semi-structured YouTube video data. While this may seem like a complex task, we are determined to find solutions that provide meaningful insights into video categories and trending metrics. However, I acknowledge that there may be limitations and obstacles along the way and I am open to constructive criticism to continuously improve my approach.  
 
-## Project Goals
+## Project Roadmap:  
+
+The objective was to extract insights and trends based on video categories and trending metrics. To achieve this, I implemented a cost-effective and high-performance data lake using **Amazon S3** and **partitioned the data to optimize performance**.
+
+**AWS Glue** was used to create a **catalog** and develop an ETL job that utilized **Spark jobs** and **Amazon SNS** for alerts. Data analysis was conducted using **Athena** and **Spark SQL**, where I wrote SQL queries to uncover valuable insights. To present these insights in a visually appealing manner, I created business intelligence dashboards using **Amazon QuickSight**.
+
+## Project Goals:
+
 1. Data Ingestion — Build a mechanism to ingest data from different sources
 2. ETL System — We are getting data in raw format, transforming this data into the proper format
 3. Data lake — We will be getting data from multiple sources so we need centralized repo to store them
