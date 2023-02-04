@@ -9,18 +9,29 @@ Our project aims to tackle the challenge of managing and analyzing large amounts
 Let's dive into our project objectives and see how we're going to make data analysis and management a breeze!  
   
 **1. Ingesting Data with Ease:** We'll be creating a seamless mechanism for collecting data from various sources.  
+
 **2. Transforming Raw Data:** The data we collect will be in raw format, but we'll be using an ETL system to make it usable.  
+
 **3. Centralized Data Repository:** To make data management easier, we'll be storing all data in a centralized data lake.  
+
 **4. Scaling for the Future:** As our data grows, so will our system - we're making sure it's scalable to meet future needs.  
+
 **5. Power of the Cloud:** Processing vast amounts of data on our local computer would be impossible, so we're taking advantage of the cloud with AWS.  
+
 **6. Interactive Reporting Dashboard:** The cherry on top! We'll be building a dashboard to easily get answers to any questions you have about the data.    
   
 ## Technologies Used:
+
 **1. Amazon S3:** Amazon S3 is an object storage service that provides manufacturing scalability, data availability, security, and performance.  
+  
 **2. AWS IAM:** This is nothing but identity and access management which enables us to manage access to AWS services and resources securely.  
+  
 **3. QuickSight:** Amazon QuickSight is a scalable, serverless, embeddable, machine learning-powered business intelligence (BI) service built for the cloud.  
+  
 **4. AWS Glue:** A serverless data integration service that makes it easy to discover, prepare, and combine data for analytics, machine learning, and application development.  
+  
 **5. AWS Lambda:** Lambda is a computing service that allows programmers to run code without creating or managing servers.  
+  
 **6. AWS Athena:** Athena is an interactive query service for S3 in which there is no need to load data it stays in S3. 
   
 ## Architecture Diagram:  
