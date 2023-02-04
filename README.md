@@ -36,8 +36,22 @@ The objective was to extract insights and trends based on video categories and t
 This Kaggle dataset contains statistics (CSV files) on daily popular YouTube videos over the course of many months. There are up to 200 trending videos published every day for many locations. The data for each region is in its own file. The video title, channel title, publication time, tags, views, likes and dislikes, description, and comment count are among the items included in the data. A category_id field, which differs by area, is also included in the JSON file linked to the region.
 
 https://www.kaggle.com/datasets/datasnaek/youtube-new
+  
+## What did i learn through this project?  
+  
+Through this project, I had the opportunity to enhance my skills and understanding in various aspects of data engineering. Here's what I learned and how it improved my understanding:  
 
+**1. Data Ingestion:** I learned how to gather data from different sources and handle raw data effectively.  
+    
+**2. ETL Processing:** I got to see the process of transforming raw data into usable format and the importance of proper formatting.  
+  
+**3. Data Lake:** I gained an understanding of storing data in a centralized repository, making data management easier and organized.  
+  
+**4. Scalability:** I learned about the significance of scalability in data processing and how to make my system capable of handling increasing amounts of data.  
+  
+**5. Cloud Computing:** I gained insights on how cloud computing can aid in processing vast amounts of data and the advantages of using cloud services like AWS.  
+  
+**6. Data Reporting:** I saw the value of creating an interactive dashboard to get answers to questions about the data, and how it can improve decision making.  
 
-
-
+Overall, this project has greatly improved my understanding of data engineering and the various components involved in the process.
 
