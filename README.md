@@ -10,14 +10,16 @@ The objective was to extract insights and trends based on video categories and t
 
 **AWS Glue** was used to create a **catalog** and develop an ETL job that utilized **Spark jobs** and **Amazon SNS** for alerts. Data analysis was conducted using **Athena** and **Spark SQL**, where I wrote SQL queries to uncover valuable insights. To present these insights in a visually appealing manner, I created business intelligence dashboards using **Amazon QuickSight**.
 
-## Project Goals:
+## Project Objectives:
 
-1. Data Ingestion — Build a mechanism to ingest data from different sources
-2. ETL System — We are getting data in raw format, transforming this data into the proper format
-3. Data lake — We will be getting data from multiple sources so we need centralized repo to store them
-4. Scalability — As the size of our data increases, we need to make sure our system scales with it
-5. Cloud — We can’t process vast amounts of data on our local computer so we need to use the cloud, in this case, we will use AWS
-6. Reporting — Build a dashboard to get answers to the question we asked earlier
+Let's dive into our project objectives and see how we're going to make data analysis and management a breeze!
+
+**1. Ingesting Data with Ease:** We'll be creating a seamless mechanism for collecting data from various sources.  
+**2. Transforming Raw Data:** The data we collect will be in raw format, but we'll be using an ETL system to make it usable.  
+**3. Centralized Data Repository:** To make data management easier, we'll be storing all data in a centralized data lake.  
+**4. Scaling for the Future:** As our data grows, so will our system - we're making sure it's scalable to meet future needs.  
+**5. Power of the Cloud:** Processing vast amounts of data on our local computer would be impossible, so we're taking advantage of the cloud with AWS.  
+**6. Interactive Reporting Dashboard:** The cherry on top! We'll be building a dashboard to easily get answers to any questions you have about the data.  
 
 ## Services we will be using
 1. Amazon S3: Amazon S3 is an object storage service that provides manufacturing scalability, data availability, security, and performance.
